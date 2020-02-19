@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.content_bar,
+.bar {
+    position: fixed;
+    top: 0;
+    height: 3px;
+}
+
+.content_bar{
+    background-color:#ddd;
+    width: 100%;
+}
+
+.bar {
+    background-color: rgb(6, 113, 214);
+}
+
+.content {
+    width: calc(100%);
+    padding: 45px;
+    margin: 0 auto;
+}
+
+.content .text{
+    text-align: justify;
+}
